@@ -1,0 +1,123 @@
+body{ 
+    font-family: Arial, sans-serif;
+    font-size: 14px;
+    line-height: 20px;
+    margin: 0;
+    height: 1000px;
+}
+
+li{
+    margin-top: 45px;
+}
+
+.website-title{
+    background-color: rgba(235, 235, 235);
+    text-align: center;
+    padding-top: 75px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 800;
+    font-size: 25px;
+    color:rgb(66, 66, 66);
+}
+.container{
+    padding-top: 25px;
+    background-color: rgba(235, 235, 235);
+}
+
+.endpage{
+  display:flex;
+  justify-content: center;
+  color:white;
+  background-color:#333;
+  padding: 150px;
+}
+
+.product{
+    height: 550px;
+    text-decoration: none; 
+    transition: background-color 0.3s ease-in-out; 
+
+}
+
+.next{
+    background-color:rgba(253, 100, 24, 0.8);
+    color: white;
+    cursor:pointer;
+    height: 40px;
+    width: 80px;
+    border-radius:9px;
+    border: none;
+    font-size: 20px;
+    transition: background-color 0.2s ease-in-out;
+    font-family: 'Roboto', sans-serif;
+}
+
+.next:hover{
+    background-color:  rgb(253, 100, 24);
+    text-decoration: none; 
+}
+.div-next{
+    background-color:rgba(235, 235, 235);
+    height: 90px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 50px;
+    text-decoration: none; 
+}
+.p1{
+    background-color: white;
+    margin-top: 0px;
+    padding: 10px;
+    font-size: 16px;
+    border-radius: 0px 0px 20px 20px;
+    font-weight: 700;
+    text-decoration: none;
+    transition: color 0.5s;
+    height: 100%;
+}
+
+
+
+@media screen and (max-width: 600px) {
+    /* navbar styles */
+    .navbar {
+      flex-wrap: wrap;
+    }
+  
+    .navbar__link {
+      margin: 5px;
+      font-size: 14px;
+    }
+  
+    .navbar__search-form {
+      margin-top: 10px;
+    }
+  
+    .navbar__search-form input[type="text"] {
+      width: 100%;
+    }
+  
+    .navbar__search-form button[type="submit"] {
+      width: 40%;
+
+    }
+  
+    /* grid styles */
+    .grid-container {
+      grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+      grid-gap: 10px;
+    }
+  
+    .grid-item {
+        padding: 10px;
+    }
+  
+    .a1 {
+      font-size: 14px;
+    }
+  
+    .p1 {
+      font-size: 16px;
+    }
+  }

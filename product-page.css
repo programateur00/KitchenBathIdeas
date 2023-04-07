@@ -1,0 +1,215 @@
+.description{
+    padding-right: 20px;
+}
+h1{
+    color:rgb(66, 66, 66);
+    margin-top: 10px;
+}
+.attention{
+  text-align: center;
+  font-size: 23px;
+  font-weight: 800;
+  color:rgb(66, 66, 66);
+  margin-top: 20px;
+  margin-bottom: 48px;
+}
+.continent{
+    padding-top: 19px;
+}
+.title-description{
+    margin-top: 75px;
+    color:white;
+}
+.gridtitle{
+    text-align: center;
+    margin-top: 100px;
+    color:rgb(66, 66, 66);
+}
+.list-item a img {
+    transition: transform 0.3s ease-out;
+  }
+  
+  .list-item a:hover img {
+    transform: scale(2);
+  }
+  
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: rgba(235, 235, 235);
+}
+
+header {
+    text-align: center;
+    padding: 20px;
+}
+
+.links {
+    background-color: #333;
+    color: #fff;
+    display: flex;
+    flex-wrap: wrap;   
+
+}
+.america,
+.europe {
+    width: 100%;
+  margin: 10px;
+}
+a{
+    text-decoration: none;
+    width: 100%;
+}
+.a1{
+    background-color: rgba(253, 100, 24, 0.8);
+    color:white;
+    border: none;
+    height: 65px;
+    width: 100%;
+    font-weight: bold;
+    font-size: 18px;
+    cursor: pointer;
+    align-items: center;
+    text-align: center;
+    display: block;
+    margin-bottom: 8px;
+    border-radius: 12px;
+}
+.a1:hover {
+    background-color: rgb(253, 100, 24);
+    transform: scale(1.01); /* increase image size by 5% */
+    filter: brightness(110%); /* increase image brightness by 10% */
+    transition: transform 0.3s ease-in-out, filter 0.3s ease-in-out; /* add transition */
+}
+.america {
+  order: 1;
+  font-weight:700;
+}
+img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 12px;
+}
+
+.europe {
+  order: 2;
+  font-weight:700;
+}
+
+ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+li {
+    margin: 0 10px;
+}
+
+main {
+    padding: 20px;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+    border-radius: 0;
+    margin-top: 75px;
+    height: 120px;
+}
+h1{
+    margin-bottom: 15px;
+
+}
+p{
+    margin-bottom: 10px;
+}
+img{
+    margin-top: 15px;
+    margin-right: 10px;
+    border-radius: 12px;
+}
+html, body {
+    overflow-x: hidden;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 20px;
+  }
+
+
+  
+  .grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 20px;
+  }
+  
+  .grid a:hover img {
+    transform: scale(1.05); /* increase image size by 5% */
+    filter: brightness(110%); /* increase image brightness by 10% */
+    transition: transform 0.3s ease-in-out, filter 0.3s ease-in-out; /* add transition */
+  }
+  
+
+  .grid a img {
+    width: 100%;
+    display: block;
+    border-radius: 12px;
+    margin-right: 0; /* reset margin for last image in each row */
+  }
+  
+  .grid a:nth-child(2n) img {
+    margin-right: 0; /* reset margin for first image in each row */
+  }
+  
+  .grid a:last-child img {
+    margin-right: 0; /* reset margin for last image in grid */
+  }
+  .gridobject{
+    width:50%;
+    height: 50%;
+  }
+#bug{
+    margin-left: 350px;
+}
+ 
+/* Add media queries for responsive design */
+@media screen and (max-width: 767px) {
+    .links {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    li {
+        margin: 10px 0;
+    }
+    .a1 {
+        width: 100%;
+        max-width: 95%; /* set a maximum width to prevent the buttons from becoming too wide on smaller screens */
+    }
+    .a1:active{
+        background-color: rgb(253, 100, 74);
+    }
+    .gridobject{
+        width: 100%;
+        height: 100%;
+      }
+      #bug{
+        margin-left: 0px;
+      }
+      footer{
+        height: 100%;
+      }
+    }

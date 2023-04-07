@@ -1,0 +1,75 @@
+
+.a1{
+    background-color: rgba(253, 100, 24, 0.8);
+    color:white;
+    border: none;
+    height: 65px;
+    font-weight: bold;
+    font-size: 18px;
+    cursor: pointer;
+    text-align: center;
+    width: 100%;
+}
+ 
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    grid-template-rows: repeat(2, 1fr);
+    column-gap: 10px;
+    row-gap: 175px;
+    margin: 30px 30px 0px 30px;
+    padding-bottom: 100px;
+    
+}
+    
+     
+.grid-item {
+    background-color: rgba(235, 235, 235);;
+    text-align: center;
+    padding: 0px;
+} 
+
+.grid-item img {
+    display: block;
+    height: 100%;
+    width: 100%;
+    text-decoration: none; 
+    border-radius: 12px 12px 0px 0px;
+}
+
+        
+.grid-item a {
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    margin-bottom: -2px;
+    text-decoration: none; 
+}
+.grid-item a button {
+    background-color: rgb(253, 100, 24);
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    text-decoration: none; 
+}
+.grid-item .p1 {
+    color: rgb(253, 100, 24);
+  }
+
+ .a12{
+    background-color: rgba(253, 100, 24, 0.8);
+    color:white;
+    border: none;
+    height: 65px;
+    font-weight: bold;
+    font-size: 18px;
+    cursor: pointer;
+    text-align: center;
+    padding-left: 55px;
+    padding-right: 55px;
+ }
+  
